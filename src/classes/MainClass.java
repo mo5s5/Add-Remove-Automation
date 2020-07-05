@@ -1,9 +1,18 @@
+
+
+/* In this project I have just written the logic in JAVA,
+I know that Page Object Modern pattern is used for automation,
+but I didn’t have much time to explore it,
+that’s why I just wrote the logic.
+*/
+
 package classes;
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 
 public class MainClass {
 	

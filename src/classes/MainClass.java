@@ -1,9 +1,9 @@
 
 
 /* In this project I have just written the logic in JAVA,
-I know that Page Object Modern pattern is used for automation,
-but I didn’t have much time to explore it,
-that’s why I just wrote the logic.
+I know that Page Object Model pattern is used for automation,
+but I didnâ€™t have much time to explore it,
+thatâ€™s why I just wrote the logic.
 */
 
 package classes;
@@ -37,7 +37,7 @@ public class MainClass {
 			     System.out.println("elements list size " + listSize);
 				
 				if(listSize==i) {
-					System.out.println("element ¹"+i+" added");
+					System.out.println("element Â¹"+i+" added");
 				}
 				else {
 					System.out.println("element is not added");
@@ -56,9 +56,9 @@ public class MainClass {
 		   			 listSize=elements.size();
 				     System.out.println("elements list size " + listSize);
 					if (!isPresent) {
-						System.out.println("element ¹" + i + " removed");
+						System.out.println("element Â¹" + i + " removed");
 					} else {
-						System.out.println("element ¹" + i + " is not removed");
+						System.out.println("element Â¹" + i + " is not removed");
 					}
 				}	
 				driver.close();
